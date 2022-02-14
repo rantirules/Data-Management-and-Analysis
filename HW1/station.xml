@@ -1,0 +1,245 @@
+<xml-tables>
+    <Train_Stations-table>
+        <Train_Stations>
+            <Name>Gormanston Station</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Gormanstown</Address2>
+            <Address3>Co. Meath</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8415656</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=G&amp;action=showdetail&amp;station_id=66</Website>
+            <LAT>53.6381297964511</LAT>
+            <LONG>-6.21741054028616</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Balbriggan Station</Name>
+            <Address1>Railway Street</Address1>
+            <Address2>Balbriggan</Address2>
+            <Address3>Do. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8412803</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=B&amp;action=showdetail&amp;station_id=9</Website>
+            <LAT>53.6117617856221</LAT>
+            <LONG>-6.18243140468438</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Skerries Station</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Skerries</Address2>
+            <Address3>Co. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8491223</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=S&amp;action=showdetail&amp;station_id=117</Website>
+            <LAT>53.5739798074153</LAT>
+            <LONG>-6.11901667083355</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Rush &amp; Lusk Station</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Lusk</Address2>
+            <Address3>Co. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8437261</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=R&amp;action=showdetail&amp;station_id=109</Website>
+            <LAT>53.5208661355597</LAT>
+            <LONG>-6.14319934563359</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Donabate Station</Name>
+            <Address1>Turvey Avenue</Address1>
+            <Address2>Donabate</Address2>
+            <Address3>Co. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8436082</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=D&amp;action=showdetail&amp;station_id=49</Website>
+            <LAT>53.4857057095375</LAT>
+            <LONG>-6.1513259233287</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Malahide Station</Name>
+            <Address1>Dublin Road</Address1>
+            <Address2>Malahide</Address2>
+            <Address3>Co. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8286960</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=M&amp;action=showdetail&amp;station_id=90</Website>
+            <LAT>53.4507114547537</LAT>
+            <LONG>-6.15642589308209</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Portmarnock Station</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Portmarnock</Address2>
+            <Address3>Co. Dublin</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8208100</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=P&amp;action=showdetail&amp;station_id=101</Website>
+            <LAT>53.4182163702112</LAT>
+            <LONG>-6.15120207439065</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Clongriffin Station</Name>
+            <Address1>Railway Road</Address1>
+            <Address2>Clongriffin</Address2>
+            <Address3>Dublin 13</Address3>
+            <Address4></Address4>
+            <Phone> </Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=C&amp;action=showdetail&amp;station_id=138</Website>
+            <LAT>53.4025171961238</LAT>
+            <LONG>-6.1489773523581</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Howth Junction &amp; Donaghmede Station</Name>
+            <Address1>Kilbarrack Way</Address1>
+            <Address2>Kilbarrack Road</Address2>
+            <Address3>Kilbarrack</Address3>
+            <Address4>Dublin 13</Address4>
+            <Phone>+353 1 8286840</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=H&amp;action=showdetail&amp;station_id=73</Website>
+            <LAT>53.3913718288771</LAT>
+            <LONG>-6.15511108858946</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Bayside Station</Name>
+            <Address1>Bayside Park</Address1>
+            <Address2>Bayside</Address2>
+            <Address3>Dublin 13</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8286880</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=B&amp;action=showdetail&amp;station_id=15</Website>
+            <LAT>53.3913767526038</LAT>
+            <LONG>-6.13693846157484</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Sutton Station</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Sutton</Address2>
+            <Address3>Dublin 13</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8286900</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=S&amp;action=showdetail&amp;station_id=119</Website>
+            <LAT>53.3919498636313</LAT>
+            <LONG>-6.11601953890995</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Howth Station</Name>
+            <Address1>Harbour Road</Address1>
+            <Address2>Howth</Address2>
+            <Address3>Dublin 13</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8286920</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=H&amp;action=showdetail&amp;station_id=72</Website>
+            <LAT>53.3889744217739</LAT>
+            <LONG>-6.07421338657211</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Ashtown Station</Name>
+            <Address1>Ashtown Road</Address1>
+            <Address2>Ashtown</Address2>
+            <Address3>Dublin 7</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8880043</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=A&amp;action=showdetail&amp;station_id=4</Website>
+            <LAT>53.3753054743583</LAT>
+            <LONG>-6.33224299449652</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Phoenix Park Station</Name>
+            <Address1>Navan Road</Address1>
+            <Address2>Dublin 15</Address2>
+            <Address3></Address3>
+            <Address4></Address4>
+            <Phone> </Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=P&amp;action=showdetail&amp;station_id=134</Website>
+            <LAT>53.3775313592212</LAT>
+            <LONG>-6.34551778621161</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Castleknock Station</Name>
+            <Address1>Castleknock Road</Address1>
+            <Address2>Castleknock</Address2>
+            <Address3>Dublin 15</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8201706</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=C&amp;action=showdetail&amp;station_id=33</Website>
+            <LAT>53.3815938369952</LAT>
+            <LONG>-6.37147917505063</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Coolmine Station</Name>
+            <Address1>Carpenterstown Road</Address1>
+            <Address2>Coolmine</Address2>
+            <Address3>Dublin 15</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8201957</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=C&amp;action=showdetail&amp;station_id=46</Website>
+            <LAT>53.3775164879418</LAT>
+            <LONG>-6.39160014224703</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Clonsilla Station</Name>
+            <Address1>Clonsilla Road</Address1>
+            <Address2>Clonsilla</Address2>
+            <Address3>Dublin 15</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8211378</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=C&amp;action=showdetail&amp;station_id=40</Website>
+            <LAT>53.3829895210743</LAT>
+            <LONG>-6.42303682403725</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Leixlip Confey</Name>
+            <Address1>Captain's Hill</Address1>
+            <Address2>Leixlip</Address2>
+            <Address3>Co. Kildare</Address3>
+            <Address4></Address4>
+            <Phone>+353 1 8880055</Phone>
+            <Email></Email>
+            <Website>http://www.irishrail.ie/your_journey/your_station.asp?letter=L&amp;action=showdetail&amp;station_id=84</Website>
+            <LAT>53.374058736533</LAT>
+            <LONG>-6.48544966306995</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>Dunboyne</Name>
+            <Address1>Station Road</Address1>
+            <Address2>Dunboyne</Address2>
+            <Address3>Co. Meath</Address3>
+            <Address4></Address4>
+            <Phone></Phone>
+            <Email></Email>
+            <Website></Website>
+            <LAT>53.4170725629026</LAT>
+            <LONG>-6.46362765919494</LONG>
+        </Train_Stations>
+        <Train_Stations>
+            <Name>M3 Parkway</Name>
+            <Address1>Pace</Address1>
+            <Address2>Dunboyne</Address2>
+            <Address3>Co. Meath</Address3>
+            <Address4></Address4>
+            <Phone></Phone>
+            <Email></Email>
+            <Website></Website>
+            <LAT>53.4344754989663</LAT>
+            <LONG>-6.46819036770498</LONG>
+        </Train_Stations>
+    </Train_Stations-table>
+</xml-tables>
+
