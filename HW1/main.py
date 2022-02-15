@@ -1,5 +1,7 @@
 import csv
 from datetime import datetime
+import xmltodict
+import json
 # CSV QUESTION 1
 data = open('covid.csv', 'r')
 reader = csv.reader(data)
@@ -49,73 +51,31 @@ for i, (key,value) in enumerate(dates.items()):
             #print(cases_date_country)
             cases_date.append(sum(cases_date_country)/len(cases_date_country))
         dates_new_cases_average[key] = sum(cases_date)/len(cases_date)
+    elif i>0 and i<7:
+        for j in range(0, i):
+            cases_date_country = []
+            for country, new_case in dates[keys[j]].items():
+                cases_date_country.append(new_case)
+            #print(cases_date_country)
+            cases_date.append(sum(cases_date_country)/len(cases_date_country))
+        dates_new_cases_average[key] = sum(cases_date)/len(cases_date)
+    
 print(dates_new_cases_average)
 
 # CSV QUESTION 3
-
-# JSON QUUESTION 1
-# import json
-# with open("movies.json", "r") as json_file:
-#     json_to_dict = json.load(json_file) #json.load() converts from json to dictionary
-#     print(type(json_to_dict))
-#     average = 0
-#     for key in json_to_dict:
-#         average = sum(key["ratings"])/len(key["ratings"])
-#         # print(average)
-#         if key == "averageRating":
-#             key["averageRating"] = average
-#         # print(key["ratings"])
-# output = open("averageUpdated.json", "w")
-# json.dump(json_to_dict, output, indent=4)
-# output.close()
-
-# import json
-# with open("movies.json", "r") as json_file:
-#     output = open("averageUpdated1.json", "w")
-#     # json.dump(json_file, output, indent=4)
-#     data = json.load(json_file)
-#     for i in data:
-#         # print(type(i))
-#         # average = 0
-#         for key, value in i.items():
-#             # print(key)
-#             # print(value)
-#             if key == "ratings":
-#                 # average = sum(key["ratings"])/len(key["ratings"])
-#                 average = sum(value)/len(value)
-#             elif key == "averageRating":
-#                 value = average
-#                 average = 0
-#     json.dump(data, output, index=6)
-#     output.close()                
-    # print(type(data))
-    # print(type(data[0]))
+keys = list(dates_new_cases_average.keys())
+peaks = []
+for i, (key, value) in enumerate(dates_new_cases_average.items()):
+    if i>0:
+        if dates_new_cases_average[keys[i-1]] < value and dates_new_cases_average[keys[i+1]] < value:
+            peaks.append(key)
+    
+print(peaks)
 
 
-# import json
-# movie_file = open('movies.json', 'r')
-# movie_file_string = json.dump(movie_file)
-# # json_string_to_dict = json.loads(movie_file_string)
-# print(type(movie_file_string ))
-# movie_file.close()
-# import json
-# json_file = open('movies.json', 'r') # read the movies.json file
-# output = open("averageUpdated.json", "w")
-# # with open("averageUpdated.json", "w") as output: # create the new file where we want to store the data
-# json_to_list = json.load(json_file) #json.loads() converts from json to dictionary
-# # json_to_dict = dict.fromkeys(json_to_list)
-# # print(type(json_to_dict))
-# average = 0
-
-# for key in json_file:
-#     # print(key[2])
-#     int_list = [int(i) for i in key["ratings"]]
-#     average = sum(int_list)/len(int_list)
-#     #         # print(average)
-#     if key == "averageRating":
-#          key["averageRating"] = average
-#                 # print(key["ratings"])
-#             #output = open("averageUpdated.json", "w")
-# json.dump(json_file, output, indent=4)
-# json_file.close()
-# output.close()
+# XML QUESTION 1
+with open('station.xml', 'r') as f:
+    my_xml = f.read()
+    
+with open('stationEmail.json', 'w') as f:
+    json.dump(xmltodict.parse(my_xml), f)
