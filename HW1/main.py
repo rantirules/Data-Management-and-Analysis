@@ -2,6 +2,8 @@ import csv
 from datetime import datetime
 import xmltodict
 import json
+import xml.etree.ElementTree as ET
+
 # CSV QUESTION 1
 data = open('covid.csv', 'r')
 reader = csv.reader(data)
@@ -79,3 +81,21 @@ with open('station.xml', 'r') as f:
     
 with open('stationEmail.json', 'w') as f:
     json.dump(xmltodict.parse(my_xml), f)
+
+# XML QUESTION 2)
+with open("stationEmail.json", "r") as json_file:
+    data = json.load(json_file);
+    #print(data)
+    root = ET.Element("xml-tables")
+    TStable = ET.SubElement(root, "Train_Stations-table")
+    stations = data['xml-tables']['Train_Stations-table']['Train_Stations']
+    for i in range(len(stations)):
+        TS = ET.SubElement(TStable, "Train_Stations")
+        for key, value in stations[i].items():
+            if key!="Email":
+                ET.SubElement(TS, key).text = value
+     
+    tree = ET.ElementTree(root)
+   
+    # Writing the xml to output file
+    tree.write("noEmail.xml")
